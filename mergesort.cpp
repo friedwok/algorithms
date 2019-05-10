@@ -53,7 +53,7 @@ void merge(T *array, T *buffer, int left, int middle, int right)
 
 //array - массив
 //buffer - буфер для сортировки, размером не меньше. чем array
-//left - нижняя граница right - верхняя
+//left - нижняя граница, right - верхняя
 
 template <typename T, typename cmp = standart_cmp<T>>
 void merge_sort(T *array, T *buffer, int left, int right)
